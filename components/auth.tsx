@@ -22,7 +22,7 @@ export default function Auth() {
             <p>학생임을 인증하기 위해 본인의 학번을 입력해주세요.</p>
 
             <div>
-                <label>학번</label>
+                <label>학번 : </label>
                 <input
                     placeholder="학번 4자리를 입력해주세요 (예 : 1101)"
                     value={schoolId}
